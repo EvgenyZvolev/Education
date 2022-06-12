@@ -15,5 +15,4 @@ while x < 4:
     elif znak == "*":
         s = float (a * b)
     print ('Ответ равен: ' + str(s))
-
 print ('Программа завершена')
