@@ -1,20 +1,39 @@
-# 1. Variables (переменные)
+# Основы программирования (Basics of programming)
+# 1. Типы данных (переменных) (variables):
 # int
 number = 10
+print(type(number))
 # float
 price = 10.5
+print(type(price))
 # str
 name = 'Evgeny'
+print(type(name))
+# list
+a = [1, 2, 'b']
+print(type(a))
+# tuple
+a = (1, 2, 'b')
+print(type(a))
+# set
+a = {1, 2, 'b'}
+print(type(a))
+# dict
+a = {'a':1, 'b':2, 'c':3}
+print(type(a))
 # bool
 status = True
+print(type(a))
+# NoneType
+a = None
+print(type(a))
 
+# Действия со строками
 # Конкатенация
-print("Hello, " + name + "!")
+print("\nHello, " + name + "!")
 print("\nPrice = " + "$" + str(price))
-
 # Экранирование
 print("\nCode from the lock \"123456\"")
-
 # f-str
 name = 'Evgeny'
 weather = 'облачно'
@@ -22,7 +41,7 @@ sum = 100.5
 print(f"\nHello, {name}!")
 print(f"Сейчас на улице {weather}, а у тебя в кармане ${sum}")
 
-# Математические операции:
+# 2. Математические операции:
 # +, -, *, /, //, **, %, унарный минус, округление, Пи
 a = 10
 b = 3
