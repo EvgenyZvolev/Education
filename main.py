@@ -71,3 +71,26 @@ import math
 print("Округление числа 13.7 в меньшую сторону равно: " + str(math.floor(d)))
 print("Округление числа 13.2 в большую сторону равно: " + str(math.ceil(c)))
 print("Число Пи равно: " + str(math.pi))
+
+# 3.Условные операторы if, elif, else (Conditional operators)
+# a)
+if True:
+    print('\n a) if')
+elif True:
+    print('elif')
+else:
+    print('else')
+# b)
+if False:
+    print('if')
+elif True:
+    print('\n b) elif')
+else:
+    print('else')
+# c)
+if False:
+    print('if')
+elif False:
+    print('elif')
+else:
+    print('\n c) else')
