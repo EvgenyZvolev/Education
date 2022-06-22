@@ -1,30 +1,30 @@
 # Основы программирования (Basics of programming)
 # 1. Типы данных (переменных) (variables):
-# int
+# int (целое число)
 number = 10
 print(type(number))
-# float
+# float (число с плавающей точкой)
 price = 10.5
 print(type(price))
-# str
+# str (строка)
 name = 'Evgeny'
 print(type(name))
-# list
+# list (список)
 a = [1, 2, 'b']
 print(type(a))
-# tuple
+# tuple (кортеж)
 a = (1, 2, 'b')
 print(type(a))
-# set
+# set (множество)
 a = {1, 2, 'b'}
 print(type(a))
-# dict
+# dict (словарь)
 a = {'a':1, 'b':2, 'c':3}
 print(type(a))
-# bool
+# bool (логическое булевое значение)
 status = True
 print(type(a))
-# NoneType
+# NoneType (отсутствие данных)
 a = None
 print(type(a))
 
@@ -94,3 +94,32 @@ elif False:
     print('elif')
 else:
     print('\n c) else')
+
+# 4. Оператор while
+# a)
+x = 0    #(переменная счетчика)
+while x < 5:
+    x += 1
+    print (x)
+else:
+    print (x)
+# b) Факториал числа 5!=1*2*3*4*5=120
+x = 1
+y = int(input('Введите число: '))
+count = 0
+while count < y:
+    count += 1
+    x *= count
+print(x)
+# с) для слова: 'hello'
+x = ''
+while len(x) < 5:
+    y = input('Ввод данных: ')
+    if y == 'o':
+        continue  #(продолжение цикла)
+    if y == 'l':
+        break  #(завершение цикла)
+    x += y
+else:
+    print(x)
+print('Программа работат дальше')
